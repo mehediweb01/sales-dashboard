@@ -4,6 +4,7 @@ import Navbar from "../components/navbar/Navbar";
 import Sales from "../components/todaySales/Sales";
 import Visitor from "../components/visitors/Visitor";
 import Revenue from "../components/Revenue/Revenue";
+import CustomerSatisfaction from "../components/satisfaction/CusSatisfaction";
 
 const Dashboard = () => {
   return (
@@ -25,7 +26,7 @@ const Dashboard = () => {
               <Revenue />
             </div>
             <div className="flex-1/3">
-              
+              <CustomerSatisfaction />
             </div>
             <div className=" flex-1/3">
               

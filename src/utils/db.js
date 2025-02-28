@@ -158,3 +158,26 @@ export const revenueData = [
     offline: 1700,
   },
 ];
+
+export const satisfactionData = [
+  {
+    lastMonth: 4,
+    thisMonth: 3,
+  },
+  {
+    lastMonth: 4,
+    thisMonth: 5,
+  },
+  {
+    lastMonth: 3,
+    thisMonth: 2,
+  },
+  {
+    lastMonth: 5,
+    thisMonth: 2,
+  },
+  {
+    lastMonth: 4,
+    thisMonth: 5,
+  },
+];
