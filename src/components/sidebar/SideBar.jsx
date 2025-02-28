@@ -1,14 +1,20 @@
 import React from "react";
+import SideBarCard from "./Card";
+import SideBarItems from "./SideBarItems";
 import Logo from "./Logo";
 
 const SideBar = () => {
   return (
-    <div className="grid grid-cols-5 grid-rows-5 gap-4 ms-[46px] mt-[55px]">
-      <div>
+    <div className="flex flex-col justify-start items-start gap-16 ms-[46px] mt-[55px] max-w-[280px] pb-4">
+      <div className="w-full">
         <Logo />
       </div>
-      <div className="row-span-3 row-start-2">4</div>
-      <div className="row-start-5">6</div>
+      <div className="w-full">
+        <SideBarItems />
+      </div>
+      <div className="hidden md:block w-full">
+        <SideBarCard />
+      </div>
     </div>
   );
 };
