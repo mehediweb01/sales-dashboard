@@ -3,6 +3,7 @@ import SideBar from "../components/sidebar/SideBar";
 import Navbar from "../components/navbar/Navbar";
 import Sales from "../components/todaySales/Sales";
 import Visitor from "../components/visitors/Visitor";
+import Revenue from "../components/Revenue/Revenue";
 
 const Dashboard = () => {
   return (
@@ -20,9 +21,15 @@ const Dashboard = () => {
             </div>
           </section>
           <section className="w-full flex justify-around items-center gap-2">
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">1</div>
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">2</div>
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">3</div>
+            <div className="flex-1/3">
+              <Revenue />
+            </div>
+            <div className="flex-1/3">
+              
+            </div>
+            <div className=" flex-1/3">
+              
+            </div>
           </section>
           <section className="w-full flex justify-around items-center gap-2">
             <div className="bg-red-500 border-r-amber-300 flex-1/3">1</div>

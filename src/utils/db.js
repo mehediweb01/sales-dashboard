@@ -119,3 +119,42 @@ export const visitorChartsData = [
     Unique_Customers: 300,
   },
 ];
+
+export const revenueData = [
+  { amt: 2500 },
+  {
+    name: "Monday",
+    online: 2100,
+    offline: 400,
+  },
+  {
+    name: "Tuesday",
+    online: 1500,
+    offline: 1000,
+  },
+  {
+    name: "Wednesday",
+    online: 2450,
+    offline: 50,
+  },
+  {
+    name: "Thursday",
+    online: 1000,
+    offline: 1500,
+  },
+  {
+    name: "Friday",
+    online: 2200,
+    offline: 300,
+  },
+  {
+    name: "Saturday",
+    online: 1600,
+    offline: 900,
+  },
+  {
+    name: "Sunday",
+    online: 800,
+    offline: 1700,
+  },
+];
