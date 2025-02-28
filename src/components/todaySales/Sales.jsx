@@ -24,7 +24,7 @@ const Sales = () => {
           </Button>
         </div>
       </div>
-      <div className="flex justify-around items-center gap-2 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-8">
         {salesCardData.map((item, i) => (
           <SalesCard key={i} {...item} />
         ))}
