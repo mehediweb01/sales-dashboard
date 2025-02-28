@@ -8,7 +8,7 @@ const Revenue = () => {
         Total Revenue
       </h1>
       <RevenueCharts />
-      <div className="flex gap-1 justify-center ">
+      <div className="flex gap-1 justify-start items-center ms-4 ">
         <div className="flex gap-2 items-center">
           <div className="size-2 rounded-full bg-[#0095FF]" />
           <h1 className="font-medium text-xs leading-[12.3px] text-[#464E5F]">

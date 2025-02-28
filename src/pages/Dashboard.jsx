@@ -5,6 +5,7 @@ import Sales from "../components/todaySales/Sales";
 import Visitor from "../components/visitors/Visitor";
 import Revenue from "../components/Revenue/Revenue";
 import CustomerSatisfaction from "../components/satisfaction/CusSatisfaction";
+import Target from "../components/target-reality/Target";
 
 const Dashboard = () => {
   return (
@@ -21,18 +22,20 @@ const Dashboard = () => {
               <Visitor />
             </div>
           </section>
-          <section className="w-full flex justify-around items-center gap-2">
+
+          <section className="w-full flex md:flex-row flex-col justify-between items-start gap-2">
             <div className="flex-1/3">
               <Revenue />
             </div>
             <div className="flex-1/3">
               <CustomerSatisfaction />
             </div>
-            <div className=" flex-1/3">
-              
+            <div className="flex-1/3">
+              <Target />
             </div>
           </section>
-          <section className="w-full flex justify-around items-center gap-2">
+
+          <section className="w-full flex md:flex-row flex-col justify-between items-start md:items-center gap-2">
             <div className="bg-red-500 border-r-amber-300 flex-1/3">1</div>
             <div className="bg-red-500 border-r-amber-300 flex-1/3">2</div>
             <div className="bg-red-500 border-r-amber-300 flex-1/3">3</div>

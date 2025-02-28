@@ -181,3 +181,31 @@ export const satisfactionData = [
     thisMonth: 5,
   },
 ];
+
+export const targetData = [
+  {
+    name: "Jan",
+    reality: 500,
+    target: 500,
+  },
+  {
+    name: "Feb",
+    reality: 300,
+    target: 400,
+  },
+  {
+    name: "Mar",
+    reality: 350,
+    target: 500,
+  },
+  {
+    name: "Apr",
+    reality: 200,
+    target: 100,
+  },
+  {
+    name: "May",
+    reality: 400,
+    target: 250,
+  },
+];

@@ -8,7 +8,7 @@ const CustomerSatisfaction = () => {
         Customer Satisfaction
       </h1>
       <CustomerSatisfactionCharts />
-      <div className="flex gap-4 justify-center ">
+      <div className="flex gap-4 justify-start items-center ">
         <div className="flex gap-2 items-center">
           <div className="w-6 h-1 bg-[#0095FF] flex justify-center items-center rounded-3xl">
             <div className="size-2 rounded-full bg-[#0095FF]" />
