@@ -1,6 +1,8 @@
 import React from "react";
 import SideBar from "../components/sidebar/SideBar";
 import Navbar from "../components/navbar/Navbar";
+import Sales from "../components/todaySales/Sales";
+import Visitor from "../components/visitors/Visitor";
 
 const Dashboard = () => {
   return (
@@ -8,10 +10,14 @@ const Dashboard = () => {
       <SideBar />
       <section className="w-full mt-[35px]">
         <Navbar />
-        <section className="w-full flex flex-col gap-3 justify-around items-start">
-          <section className="w-full flex justify-between items-center">
-            <div className="flex-3/4 bg-red-400">1</div>
-            <div className="flex-1/2 bg-green-400">2</div>
+        <section className="w-full flex flex-col gap-3 justify-around items-start mt-8">
+          <section className="w-full flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
+            <div className="shadow-box">
+              <Sales />
+            </div>
+            <div className="shadow-box">
+              <Visitor />
+            </div>
           </section>
           <section className="w-full flex justify-around items-center gap-2">
             <div className="bg-red-500 border-r-amber-300 flex-1/3">1</div>
