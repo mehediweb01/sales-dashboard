@@ -209,3 +209,30 @@ export const targetData = [
     target: 250,
   },
 ];
+
+export const volumeData = [
+  {
+    uv: 5,
+    pv: 4,
+  },
+  {
+    uv: 8,
+    pv: 2,
+  },
+  {
+    uv: 8,
+    pv: 7,
+  },
+  {
+    uv: 10,
+    pv: 6,
+  },
+  {
+    uv: 4,
+    pv: 1,
+  },
+  {
+    uv: 9,
+    pv: 7,
+  },
+];

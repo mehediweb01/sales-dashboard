@@ -6,6 +6,8 @@ import Visitor from "../components/visitors/Visitor";
 import Revenue from "../components/Revenue/Revenue";
 import CustomerSatisfaction from "../components/satisfaction/CusSatisfaction";
 import Target from "../components/target-reality/Target";
+import Map from "../components/map/Map";
+import Volume from "../components/volume/Volume";
 
 const Dashboard = () => {
   return (
@@ -35,10 +37,14 @@ const Dashboard = () => {
             </div>
           </section>
 
-          <section className="w-full flex md:flex-row flex-col justify-between items-start md:items-center gap-2">
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">1</div>
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">2</div>
-            <div className="bg-red-500 border-r-amber-300 flex-1/3">3</div>
+          <section className="w-full flex md:flex-row flex-col justify-between items-start gap-2 ps-2 mt-8">
+            <div className="flex-1/3">1</div>
+            <div className="flex-1/3">
+              <Map />
+            </div>
+            <div className="flex-1/3">
+              <Volume />
+            </div>
           </section>
         </section>
       </section>
