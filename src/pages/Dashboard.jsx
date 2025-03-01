@@ -8,6 +8,7 @@ import CustomerSatisfaction from "../components/satisfaction/CusSatisfaction";
 import Target from "../components/target-reality/Target";
 import Map from "../components/map/Map";
 import Volume from "../components/volume/Volume";
+import TopProducts from "../components/topProducts/TopProducts";
 
 const Dashboard = () => {
   return (
@@ -38,7 +39,9 @@ const Dashboard = () => {
           </section>
 
           <section className="w-full flex md:flex-row flex-col justify-between items-start gap-2 ps-2 mt-8">
-            <div className="flex-1/3">1</div>
+            <div className="flex-1/3">
+              <TopProducts />
+            </div>
             <div className="flex-1/3">
               <Map />
             </div>

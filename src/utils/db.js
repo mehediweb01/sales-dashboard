@@ -236,3 +236,34 @@ export const volumeData = [
     pv: 7,
   },
 ];
+
+export const topProductsData = [
+  {
+    id: 1,
+    name: "Home Decor Range",
+    popularity: 45,
+    sales: 45,
+    color: "primary",
+  },
+  {
+    id: 2,
+    name: "Disney Princess Pink Bag 18'",
+    popularity: 29,
+    sales: 29,
+    color: "success",
+  },
+  {
+    id: 3,
+    name: "Bathroom Essentials",
+    popularity: 18,
+    sales: 18,
+    color: "secondary",
+  },
+  {
+    id: 4,
+    name: "Apple Smartwatches",
+    popularity: 25,
+    sales: 25,
+    color: "warning",
+  },
+];
