@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col justify-start items-start gap-16 ms-[46px] mt-[55px] max-w-[280px] pb-4">
+    <div className="flex flex-col justify-start items-start gap-16 ms-[26px] mt-[35px] max-w-[280px] pb-4">
       <div className="w-full">
         <Logo />
       </div>

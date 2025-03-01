@@ -3,7 +3,7 @@ import VolumeCharts from "../../charts/VolumeCharts";
 
 const Volume = () => {
   return (
-    <div className="shadow-box shadow-black/10 p-2 rounded-md">
+    <div className="shadow-box shadow-black/10 p-1 rounded-md mx-4">
       <h2 className="text-blueDark text-xl font-poppins font-semibold leading-8">
         Volume vs Service Level
       </h2>
