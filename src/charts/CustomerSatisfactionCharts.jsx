@@ -5,7 +5,7 @@ import { satisfactionData } from "../utils/db";
 const CustomerSatisfactionCharts = () => {
   return (
     <AreaChart
-      width={320}
+      width={270}
       height={220}
       data={satisfactionData}
       margin={{ top: 10, right: 30, left: 0, bottom: 0 }}

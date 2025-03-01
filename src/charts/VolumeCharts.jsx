@@ -5,7 +5,7 @@ import { volumeData } from "../utils/db";
 const VolumeCharts = () => {
   return (
     <BarChart
-      width={280}
+      width={270}
       height={220}
       data={volumeData}
       margin={{

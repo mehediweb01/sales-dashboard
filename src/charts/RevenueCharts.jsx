@@ -4,7 +4,7 @@ import { revenueData } from "../utils/db";
 
 const RevenueCharts = () => {
   return (
-    <BarChart width={300} height={220} data={revenueData}>
+    <BarChart width={270} height={220} data={revenueData}>
       <XAxis dataKey="name" />
       <YAxis dataKey="amt" />
       <Tooltip />

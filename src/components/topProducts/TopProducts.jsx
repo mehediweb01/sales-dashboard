@@ -20,7 +20,7 @@ const TopProducts = () => {
       <TableContainer
         component={Paper}
         sx={{ borderRadius: 3, boxShadow: 3 }}
-        className="!w-full"
+        className="!w-[100%]"
       >
         <Table>
           <TableHead>

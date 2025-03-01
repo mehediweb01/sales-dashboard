@@ -4,7 +4,7 @@ import { Bar, BarChart, Tooltip, XAxis } from "recharts";
 
 const TargetCharts = () => {
   return (
-    <BarChart width={300} height={220} data={targetData}>
+    <BarChart width={270} height={220} data={targetData}>
       <XAxis dataKey="name" />
       <Tooltip />
       <Bar dataKey="target" fill="#FFCF00" radius={5} />
