@@ -8,7 +8,7 @@ const Visitor = () => {
         Visitor Insights
       </h1>
       <VisitorsCharts />
-      <div className="flex gap-1">
+      <div className="flex md:flex-row flex-col gap-1">
         <div className="flex gap-2 items-center">
           <div className="size-5 rounded-md bg-purple-500" />
           <h1 className="font-medium text-xs leading-[12.3px] text-[#464E5F]">

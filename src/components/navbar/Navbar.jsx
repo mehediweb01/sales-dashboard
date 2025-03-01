@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="md:block hidden">
         <Language />
       </div>
-      <div className="flex gap-2">
+      <div className="gap-2 sm:flex hidden">
         <img
           src="/icons/notifications.svg"
           alt="notifications"

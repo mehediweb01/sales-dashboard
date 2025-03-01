@@ -13,14 +13,16 @@ import ListCard from "./ListCard";
 const classes = "!font-poppins !text-[13px] !leading-4 !text-secondary";
 const TopProducts = () => {
   return (
-    <div>
+    <div className="md:block hidden">
       <h2 className="text-blueDark text-xl font-poppins font-semibold leading-8 mb-8">
         Top Products
       </h2>
       <TableContainer
         component={Paper}
-        sx={{ borderRadius: 3, boxShadow: 3 }}
-        className="!w-[100%]"
+        sx={{
+          borderRadius: 3,
+          boxShadow: 3,
+        }}
       >
         <Table>
           <TableHead>
