@@ -5,7 +5,7 @@ import { visitorChartsData } from "../utils/db";
 const VisitorsCharts = () => {
   return (
     <LineChart
-      width={270}
+      width={300}
       height={200}
       data={visitorChartsData}
       margin={{ top: 5, right: 30, bottom: 5 }}

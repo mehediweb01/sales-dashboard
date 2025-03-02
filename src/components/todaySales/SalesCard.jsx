@@ -3,7 +3,7 @@ import React from "react";
 const SalesCard = ({ icon, list, name, description, color, divColor }) => {
   return (
     <div
-      className={`${color} px-4 py-6 rounded-2xl flex flex-col justify-stretch items-start gap-3 `}
+      className={`${color} px-4 py-6 rounded-2xl flex flex-col justify-stretch items-start gap-3 max-w-[180px]`}
     >
       <div className={`p-2 rounded-full ${divColor}`}>
         <img src={icon} alt="" />

@@ -13,7 +13,7 @@ import ListCard from "./ListCard";
 const classes = "!font-poppins !text-[13px] !leading-4 !text-secondary";
 const TopProducts = () => {
   return (
-    <div className="md:block hidden">
+    <div className="w-full">
       <h2 className="text-blueDark text-xl font-poppins font-semibold leading-8 mb-8">
         Top Products
       </h2>
@@ -22,6 +22,8 @@ const TopProducts = () => {
         sx={{
           borderRadius: 3,
           boxShadow: 3,
+          maxWidth: "100%",
+          overflow: "auto",
         }}
       >
         <Table>

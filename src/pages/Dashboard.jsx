@@ -17,35 +17,35 @@ const Dashboard = () => {
       <section className="w-full mt-[35px]">
         <Navbar />
         <section className="w-full flex flex-col gap-3 justify-around items-start mt-8">
-          <section className="w-full flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
+          <section className="w-full grid grid-cols-1 md:grid-cols-2 justify-between items-start md:items-center gap-8">
             <div className="shadow-box">
               <Sales />
             </div>
-            <div className="shadow-box">
+            <div className="shadow-box w-fit">
               <Visitor />
             </div>
           </section>
 
-          <section className="w-full flex md:flex-row flex-col justify-between items-start gap-2">
-            <div className="flex-1/3">
+          <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-start gap-2">
+            <div>
               <Revenue />
             </div>
-            <div className="flex-1/3">
+            <div>
               <CustomerSatisfaction />
             </div>
-            <div className="flex-1/3">
+            <div>
               <Target />
             </div>
           </section>
 
-          <section className="w-full flex md:flex-row flex-col justify-between items-start gap-2 ps-2 mt-8">
-            <div className="flex-1/3">
+          <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-start gap-2 ps-2 mt-8">
+            <div className="w-full">
               <TopProducts />
             </div>
-            <div className="flex-1/3">
+            <div>
               <Map />
             </div>
-            <div className="flex-1/3">
+            <div>
               <Volume />
             </div>
           </section>
